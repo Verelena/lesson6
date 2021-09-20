@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(235, 235, 235);
+}
+.container {
+  width: 600px;
+  margin: 0 auto;
+  font-family: Arial Narrow, sans-serif;
+}
+h1,
+p {
+  text-align: center;
+  font-size: 20px;
+  line-height: 170%;
+}
+form {
+  width: 300px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+input[type="text"] {
+  display: block;
+  padding: 10px;
+  border: rgb(151, 151, 151) 1px solid;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  outline: none;
+}
+input[type="text"]:focus {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.534);
+}
+select {
+  display: inline-block;
+  width: 38%;
+  padding: 7px;
+  border: rgba(85, 81, 81, 0.486) 1px solid;
+  border-radius: 3px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgba(66, 62, 77, 0.616);
+}
+.day {
+  width: 27%;
+  margin-right: 10px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url(/img/free-icon-down-arrow-833532.svg);
+  background-repeat: no-repeat;
+  background-size: 17px;
+  background-position: right;
+  outline: 0;
+}
+.month {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url(/img/free-icon-down-arrow-833532.svg);
+  background-repeat: no-repeat;
+  background-size: 17px;
+  background-position: right;
+  outline: 0;
+}
+.year {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  width: 25%;
+  margin-left: 10px;
+  appearance: none;
+  background-image: url(/img/free-icon-down-arrow-833532.svg);
+  background-repeat: no-repeat;
+  background-size: 17px;
+  background-position: right;
+  outline: 0;
+}
+h4 {
+  color: rgba(66, 62, 77, 0.616);
+}
+h5 {
+  text-align: center;
+  color: rgba(66, 62, 77, 0.616);
+}
+h5::before,
+h5::after {
+  content: "";
+  display: inline-block;
+  height: 1px;
+  width: 30px;
+  background: rgba(66, 62, 77, 0.616);
+  vertical-align: middle;
+  margin: 0 10px;
+}
+button {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  color: aliceblue;
+  cursor: pointer;
+}
+.regisrtation {
+  background: #378128;
+  margin-bottom: 15px;
+}
+.continue {
+  background: #4267b2;
+  margin-top: 15px;
+}
